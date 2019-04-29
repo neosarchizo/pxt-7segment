@@ -24,6 +24,8 @@ namespace sevenSegment {
      * @param num Number
      */
     //% blockId=seven_segment_display block="숫자 표시하기|숫자 %num"
+    //% num.min=0 num.max=9
+    //% num.shadow=turnRatioPicker
     export function displayNumber(num: number) {
         // do something
     }
