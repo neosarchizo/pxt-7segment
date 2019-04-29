@@ -14,7 +14,7 @@ namespace sevenSegment {
      * @param g G pin
      * @param dp DP pin
      */
-    //% blockId=seven_segment_initialzie block="초기화|A %a|B %b|C %c|D %d|E %e|F %f|G %g|DP %dp"
+    //% blockId=seven_segment_initialzie block="초기화|A %a B %b C %c D %d|E %e F %f G %g DP %dp"
     export function initialize(a: DigitalPin, b: DigitalPin, c: DigitalPin, d: DigitalPin, e: DigitalPin, f: DigitalPin, g: DigitalPin, dp: DigitalPin) {
         // do something
     }
